@@ -11,11 +11,11 @@ intents.members = True
 
 #Variabili globali
 #token per accedere al bot, UNIVOCO
-token = 'MTU1ODE3Njc5NDk4MzUzMDYyNw.GfTXZs.LTa-RNJxckZFAc2d0LYkdxX7bUd3SOpIzOX0l0'
+token = 'INSERISCI IL TUO TOKEN'
 #id del canale dove inviare il messaggio di notifica quando un utente cambia gioco
 #ATTENZIONE: l'id del canale corrisponde a un int, per ottenere l'indirizzo del canale bisogna utilizzare client.get_cannel()
-CANALE_GENERALE = 1558169601576013877
-ID_CANALE_ATTIVITA = 1559856685072261193
+CANALE_GENERALE = INSERISCI IL TUO ID CANALE
+ID_CANALE_ATTIVITA = INSERISCI IL TUO ID CANALE
 
 #definizione della classe MyClient che estende discord.Client
 class MyClient(discord.Client):
