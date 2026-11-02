@@ -33,7 +33,19 @@ To run this bot, follow these quick setup steps:
    - Under **OAuth2 > URL Generator**, select the `bot` scope and grant necessary permissions (e.g., *Administrator* for full access during testing).
 
 3. **Get Your Bot Token:**
-   - Copy your Bot Token from the **Bot** tab and insert it into your configuration file / environment variables.
+   - Copy your Bot Token from the **Bot** tab and put it in `config/config.json`:
+
+     ```json
+     {
+       "credenziali": {
+         "token": "YOUR_BOT_TOKEN",
+         "CANALE_GENERALE": 123456789012345678,
+         "ID_CANALE_ATTIVITA": 123456789012345678
+       }
+     }
+     ```
+
+   - Replace the example channel IDs with your Discord channel IDs. Keep the IDs as JSON numbers, and do not publish or commit the token.
 
 ---
 
